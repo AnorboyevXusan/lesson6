@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hed{
+
+    background-color: #B36050;
+    padding: 15px;
+
+}
+
+.hed p{
+   text-align: center;
+   color: antiquewhite;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;  
+    padding: 8px 1rem;
+
+}
+
+.header ul{
+    
+    display: flex;
+    list-style: none;
+    gap: 15px;
+
+}
+
+.header ul a{
+    text-decoration: none; 
+    color: #B4604D;
+}
+
+.logo-box{
+    width: 250px;
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    margin-top: 8px;
+}
+
+.logo-box a{
+    text-decoration: none;
+    list-style: none;
+    color: #B4604D ;
+}
+
+.img-1 img{
+    height: 435px;
+}
+
+.gre{
+    margin-top: -20;
+    background-color:#A9AE8D ;
+}
+
+.gre-box{
+    text-align: center;
+    padding: 85px 0;
+    margin-top: -8px;
+}
+.gre-box p{
+  color: aliceblue;  
+}
+
+.btn-gre{
+    background-color:#B45F4D;
+    padding: 12px 12px;
+    color: aliceblue;
+    border: none;
+    border-radius: 10%;
+}
+
+.card-box{
+    background-color: #F6F4EC;
+}
+
+.card-box p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cart-1{
+    padding: 35px;
+    background-color: #F6F4EC;
+    margin-top: -10px;
+   
+}
+.cart-1 h3{
+    margin-bottom: 25px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #B45F4D;
+
+}
+
+.cart-ul{
+    
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    align-content: space-around;
+    list-style: none;
+}
+
+.cart-ul li {
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.cart-ul li h4{
+    margin-bottom: 15px;
+    color: #B36050;
+}
+.cart-ul li span{
+    color: #B45F4D;
+}
+.strelka-bt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.strelka-bt button{
+     background-color: none;
+     border: none;
+     cursor: pointer;
+}
+
+.cart-box-4{
+    padding: 30px;
+    background-color:#DF9B7A ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+}
+
+.cart-box-4 p{
+      color: #F6F4EC;
+      font-size: 25px;
+      
+}
+
+.cart-box-4 span{
+    color:#F6F4EC ;
+    font-size: 20px;
+   
+}
+
+.Meet-Dae {
+    position: relative;
+    padding: 0 40px;
+    color: #B45F4D;
+    text-align: center;
+}
+
+.Meet-Dae h3{
+   margin-bottom: 25px;  
+ 
+}
+
+.Meet-Dae a{
+
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    color: #B45F4D;
+}
+
+
+.Meet-Dae p{
+    margin-bottom: 40px;
+}
+
+.ass {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fuder-1{
+    display: flex;
+    gap: 150px;
+    list-style: none;
+    text-decoration: none;
+}
+.fuder-1 a{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+
